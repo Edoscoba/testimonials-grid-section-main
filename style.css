@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: hsl(210, 46%, 95%);  
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 5 1fr;
+}
+
+.purple-box{
+    background-color: hsl(263, 55%, 52%);
+}
+
+.grey-box{
+    background-color: hsl(217, 19%, 35%);
+}
+
+.white-box{
+    background-color: hsl(0, 0%, 100%);
+}
+.black-box{
+    background-color: hsl(219, 29%, 14%);
+}
+
+.last-white{
+    background-color: hsl(0, 0%, 100%);
+}
